@@ -55,12 +55,16 @@ address {
   letter-spacing: 0.02em;
 }
 
-.nav-item a {
+.nav-item-link {
   color: #2e2f42;
 }
 
-.nav-item a:hover,
-.nav-item a:active {
+.nav-item-link:hover,
+.nav-item-link:active {
+  color: #404bbf;
+}
+
+.nav-item-link:visited {
   color: #404bbf;
 }
 
@@ -72,9 +76,15 @@ address {
   color: #434455;
 }
 
-.address-item:hover,
-.address-item:active {
-  text-decoration: underline;
+.address-item-link {
+  color: #434455;
+}
+
+.address-item-link:hover {
+  color: #404bbf;
+}
+
+.address-item-link:active {
   color: #404bbf;
 }
 
@@ -107,7 +117,10 @@ address {
   letter-spacing: 0.04em;
 }
 
-.hero-button:hover,
+.hero-button:hover {
+  background-color: #404bbf;
+}
+
 .hero-button:active {
   background-color: #404bbf;
 }
