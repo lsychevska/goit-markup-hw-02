@@ -60,7 +60,8 @@ address {
 }
 
 .nav-item-link:hover,
-.nav-item-link:active {
+.nav-item-link:active,
+.nav-item-link:focus {
   color: #404bbf;
 }
 
@@ -84,7 +85,8 @@ address {
   color: #404bbf;
 }
 
-.address-item-link:active {
+.address-item-link:active,
+.address-item-link:focus {
   color: #404bbf;
 }
 
@@ -122,6 +124,10 @@ address {
 }
 
 .hero-button:active {
+  background-color: #404bbf;
+}
+
+.hero-button:focus {
   background-color: #404bbf;
 }
 
